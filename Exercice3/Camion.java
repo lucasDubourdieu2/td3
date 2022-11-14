@@ -10,7 +10,7 @@ public class Camion extends Voiture {
     
   }
   
-  @Override
+
   public double calculerPrixDeVente() {
     double reduction = poids > 2000 ? 0.10 : .020;
     reduction *= this.calculerPrixDeVente();

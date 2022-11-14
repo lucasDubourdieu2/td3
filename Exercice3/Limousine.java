@@ -8,7 +8,7 @@ public class Limousine extends Voiture {
     this.longueur = longueur;
   }
 
-  @Override
+  
   public double calculerPrixDeVente() {
     double reduction = longueur > 6 ? 0.95 : 0.90;
     return this.calculerPrixDeVente() * reduction;
