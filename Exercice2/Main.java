@@ -1,4 +1,4 @@
-import Exercice2.*;
+import Exercice2;
 
 class Main {
   
